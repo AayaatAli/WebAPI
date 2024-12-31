@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "MyFirstWebAPIProject.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "MyFirstWebAPIProject.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyFirstWebAPIProject.Controllers.StudentController",
+    "Method": "CreateStudent",
+    "RelativePath": "api/student-conroller/AddStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "MyFirstWebAPIProject.Models.StudentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyFirstWebAPIProject.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/student-conroller/DelStudent/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyFirstWebAPIProject.Controllers.StudentController",
+    "Method": "GetByID",
+    "RelativePath": "api/student-conroller/GetStudent/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyFirstWebAPIProject.Controllers.StudentController",
+    "Method": "GetStudents",
+    "RelativePath": "api/student-conroller/GetStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyFirstWebAPIProject.Controllers.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/student-conroller/UpdateStudent/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "student",
+        "Type": "MyFirstWebAPIProject.Models.StudentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
